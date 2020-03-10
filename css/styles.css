@@ -96,19 +96,14 @@
           .inner-text{
             background-color: rgba(196, 196, 196, 0.5);
             width: 50%;
-            height: 710px;
+            
             padding: 20px;
-          }
-          .inner-page .inner-text span{
-            font-size: 12px;
-            color:gray
           }
           .white{
             background-color: white;
           }
           .inner-link {
-            display: block;
-            margin-top: 10px;
+            margin-top: 50px;
           }
           .price-more{
             margin-top: 20px;
