@@ -97,20 +97,28 @@
   font-family: "Roboto", Oxygen, Ubuntu, Cantarell;
   min-width: 600px;
   max-width: 900px;
-  margin: 20px 20%;
+  margin: 0 auto;
+  /*margin: 20px 20%;*/
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  position: relative;
 }
 
-.inner-images {
+.img-wrapper{
   width: 50%;
+}
+.inner-images img{
+
+  width: 80%;
+ 
 }
 
 .inner-text {
-  background-color: rgba(196, 196, 196, 0.5);
   width: 50%;
-  padding: 43px;
+  background-color: rgba(196, 196, 196, 0.5);
+  /*width: 350px;*/
+  
 }
 
 .white {
@@ -125,8 +133,13 @@
 .price-more {
   margin-top: 20px;
   color: #7A7A7A;
-  font-size: 12px;
+  font-size: 10px;
+  margin-bottom: 20px;
 }
 .price-more .articul{
   color: black;
+}
+.inner-page table td{
+  padding: 5px;
+  
 }
